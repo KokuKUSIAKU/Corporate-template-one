@@ -63,3 +63,7 @@
   }
   octopus.init();
 }())
+
+$('.slider-message').click(function(){
+  console.log(e.target.parentElement)
+})
